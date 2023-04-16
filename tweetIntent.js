@@ -1,3 +1,9 @@
+/* 
+Replace method - practical use
+https://www.codewars.com/kata/5556282156230d0e5e000089
+*/
+
+
 // Define a function called tweetQuote
 const tweetQuote = () => {
   const quote = quoteText.innerHTML.replace(/<br>/g, '\n');
